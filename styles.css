@@ -29,6 +29,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.5em;
 }
 
+#featured {
+    text-align: center;
+    font-size: 1.25em;
+    text-decoration: underline;
+}
+
+#order {
+    text-align: center;
+}
+
 .more-text {
     display: none;
 }
@@ -59,6 +69,8 @@ nav a {
 nav a:not(:last-child) {
     margin-bottom: 30px;
 }
+
+
 .container {
     background-color: #FFFDD0;
     min-width: 460px;
@@ -120,9 +132,12 @@ footer img {
         margin-bottom: 0px;
     }
 
-
-    .about, .jodie {
+    .about, .jodie, #featured, #order {
         text-align: left;
+    }
+
+    #featured {
+        margin-top: 50px;
     }
 
     .jodie img {
